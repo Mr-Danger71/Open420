@@ -1,0 +1,20 @@
+# Zephyr / build output
+build/
+twister-out*/
+
+# Local Files
+ignore/
+
+# KiCad
+*-backups/
+fp-info-cache
+*.kicad_prl
+_autosave-*
+*.bak
+\#auto_saved_files#
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
