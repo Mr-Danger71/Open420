@@ -21,8 +21,8 @@ jobs:
           app-path: Open420
           toolchains: arm-zephyr-eabi
 
-      - name: Build firmware
-        run: west build -p always -b nucleo_u575zi_q Open420/firmware
+      - name: Build basefirm
+        run: west build -p always -b nucleo_u575zi_q Open420/firmware/basefirm
 
   licensing:
     runs-on: ubuntu-24.04

@@ -12,7 +12,7 @@ Named for 420 MHz, the bottom edge of the US 70 cm amateur band.</p>
 
 ---
 
-> **Status: early design / prototyping.** Nothing here is ready to build yet. Expect everything to change.
+**Status: early design / prototyping.** Expect Major Revisions to everything.
 
 ## What it is
 
@@ -60,7 +60,7 @@ mkdir open420-ws && cd open420-ws
 git clone https://github.com/Mr-Danger71/Open420.git
 west init -l Open420
 west update
-west build -p always -b nucleo_u575zi_q Open420/firmware
+west build -p always -b nucleo_u575zi_q Open420/firmware/basefirm
 ```
 
 See the [Zephyr Getting Started guide](https://docs.zephyrproject.org/latest/develop/getting_started/index.html) for toolchain setup.

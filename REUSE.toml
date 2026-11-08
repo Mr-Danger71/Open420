@@ -11,6 +11,11 @@ SPDX-FileCopyrightText = "2026 Mr-Danger71 and Open420 contributors"
 SPDX-License-Identifier = "CC-BY-SA-4.0"
 
 [[annotations]]
-path = [".gitignore", "west.yml", "REUSE.toml", ".github/**", "firmware/prj.conf", "firmware/CMakeLists.txt"]
+path = ["firmware/**"]
+SPDX-FileCopyrightText = "2026 Mr-Danger71 and Open420 contributors"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+[[annotations]]
+path = [".gitignore", "west.yml", "REUSE.toml", ".github/**", "firmware/basefirm/prj.conf", "firmware/basefirm/CMakeLists.txt"]
 SPDX-FileCopyrightText = "2026 Mr-Danger71 and Open420 contributors"
 SPDX-License-Identifier = "CC0-1.0"
